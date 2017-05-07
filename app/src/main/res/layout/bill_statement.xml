@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bill_statement_frame">
+
+    <TableRow
+        android:id="@+id/row1">
+        <TextView
+            android:text="@string/row1_col1"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorText"
+            android:textSize="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:text="@string/row1_col2"
+            android:gravity="center_horizontal"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+    </TableRow>
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:background="@color/colorText"
+        android:layout_height="1dp" />
+
+    <TableRow
+        android:id="@+id/row2">
+        <TextView
+            android:text="@string/row2_col1"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorText"
+            android:textSize="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:text="@string/row2_col2"
+            android:gravity="center_horizontal"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3">
+        <TextView
+            android:text="@string/row3_col1"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorText"
+            android:textSize="12dp"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:text="@string/row3_col2"
+            android:gravity="center_horizontal"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+    </TableRow>
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText" />
+
+    <TableRow
+        android:id="@+id/row4">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/row4_col1"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorText"
+            android:textSize="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:id="@+id/row4_col1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/row4_col2"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:textSize="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:id="@+id/row4_col2" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5">
+
+        <TextView
+            android:text="@string/row5_col1"
+            android:paddingLeft="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:id="@+id/row5_col1"
+            android:layout_alignParentLeft="true"/>
+
+
+
+        <TextView
+            android:text="@string/row5_col2"
+            android:textColor="@color/colorText"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/row5_col2"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"/>
+
+    </TableRow>
+</TableLayout>

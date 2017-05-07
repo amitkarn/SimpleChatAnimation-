@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+
+    <string name="row1_col1">ACCOUNT NUMBER</string>
+    <string name="row1_col2">7283 23 9812389 21</string>
+    <string name="row2_col1">PRODUCT PRICE</string>
+    <string name="row2_col2">60.85</string>
+    <string name="row3_col1">TAXES, SURCHARGES, AND FEES</string>
+    <string name="row3_col2">8.40</string>
+    <string name="row4_col1">DUE DATE</string>
+    <string name="row4_col2">TOTAL DUE</string>
+    <string name="row5_col1">02/26/16</string>
+    <string name="row5_col2">$135.20</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ECECEC</color>
+    <color name="colorPrimaryDark">#DEDBDB</color>
+    <color name="colorAccent">#808080</color>
+    <color name="colorText">#808080</color>
+    <color name="colorAppBarFont">#807E7E</color>
+    <color name="colorTimeFormat">#B2B0B0</color>
+
+    <color name="rightChatBubble">#E0E0E0</color>
+    <color name="leftChatBubble">#CECECE</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>
